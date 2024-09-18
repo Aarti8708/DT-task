@@ -1,0 +1,175 @@
+.body{
+    background-color: whitesmoke;
+}
+.nav{
+background-color: rgb(180, 175, 175);
+height: 60px;
+width: 100%;
+display: flex;
+}
+.thought{
+    color: blue;
+}
+.nav .logo{
+    display: flex;
+    align-items: end;
+    margin-left: 900px;
+}
+.nav .bell{
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 2%;
+
+}
+.nav .dots{
+    margin-top: 2%;
+
+}
+.nav .tool{
+    margin-left: 3%;
+    margin-top: 2%;
+
+}
+.nav .ring{
+    margin-top: 2%;
+
+    display: flex;
+    align-items: end;
+    margin-left: 920px;
+}
+.heading{
+    color: blue;
+    display: flex;
+}
+.heading button{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border-color: black;
+    text-align: end;
+    margin-left: 900px;
+    margin-top: 2%;
+    height: 15%;
+}
+.text{
+    background-color: rgb(180, 175, 175);
+}
+.text p{
+    height: 20%;
+}
+.first div{
+   
+    height: 400px;
+    width: 500px;
+}
+.plan{
+    display: flex;
+    height: 500px;
+    width: 300px;
+    margin-left: 5%;
+    
+}
+.technical{
+   
+    border: 2px solid black;
+    border-radius: 8px;
+  
+  writing-mode: horizontal-tb;
+  margin-top: 15%;
+ 
+}
+.technical img{
+    height: 220px;
+    width: 490px;
+}
+
+.oneehead{
+    background-color: black;
+    color: white;
+    display: flex;
+}  
+.Threadbuild{
+    border:2px solid black;
+    border-radius: 8px;
+
+    margin-left: 30%;
+    margin-top: 15%;
+   
+   
+}
+
+.second div{
+    height: 400px;
+    width: 500px;
+}
+.onehead {
+    background-color: black;
+    color: white;
+}
+.box{
+    display: flex;
+    box-sizing: border-box;
+}
+.box1 .subthread{
+    border: 1px solid gray;
+    box-shadow:  0 0.6rem 1.6rem #b3b5c6;
+    ;
+}
+.box2{
+    margin-right: 20%;
+}
+.box2 .subinter{
+    border: 1px solid gray;
+
+    box-shadow:  0 0.6rem 1.6rem #b3b5c6;
+}
+.box button{
+    background-color: blue;
+    color: white;
+    margin-top: 15%;
+    margin-right: 8%;
+}
+.summary{
+    border: 1px solid black;
+    text-align: left;
+    margin-left: 1%;
+}
+.box3{
+    display: flex;
+}
+.structure{
+    border: 2px solid black;
+    border-radius: 8px;
+
+    box-shadow:  0 0.6rem 1.6rem #b3b5c6;
+    margin-left: 70px;
+    margin-top: 5%;
+    height: 400px;
+    width: 500px;
+}
+.structure h1{
+    background-color: black;
+    color: white;
+}
+.method{
+    border: 2px solid black;
+    border-radius: 8px;
+    box-shadow:  0 0.6rem 1.6rem #b3b5c6;
+    margin-left: 150px;
+    margin-top: 5%;
+    height: 400px;
+    width: 500px;
+}
+.method h2{
+    background-color: black;
+    color: white;
+}
+.introduction {
+    box-sizing: content-box;
+    border: 1px solid  black;
+    box-shadow:  0 0.6rem 1.6rem #b3b5c6;
+}
+.thread{
+    border: 1px solid  black;
+}
+

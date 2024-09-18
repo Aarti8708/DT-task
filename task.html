@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic web page</title>
+    <link rel="stylesheet" href="task.css">
+</head>
+<body>
+    <header>
+		<h1>{{ title }}</h1>
+		<img src="{{ project_image }}" alt="Project Image">
+	</header>
+	<main>
+		<section class="description">
+			<p>{{ description }}</p>
+		</section>
+		<section class="learning-outcomes">
+			<h2>Learning Outcomes:</h2>
+			<ul>
+				{{#learning_outcomes}}
+				<li>{{ this }}</li>
+				{{/learning_outcomes}}
+			</ul>
+		</section>
+		<section class="prerequisites">
+			<h2>Prerequisites:</h2>
+			<ul>
+				{{#pre_requisites}}
+				<li>{{ this }}</li>
+				{{/pre_requisites}}
+			</ul>
+		</section>
+		<section class="tasks">
+			{{#tasks}}
+			<h2>{{ task_title }}</h2>
+			<p>{{ task_description }}</p>
+			{{#assets}}
+			<div class="asset">
+				{{#if asset_type === 'display_asset'}}
+                <iframe src="{{ asset_content }}" frameborder="0" allowfullscreen></iframe>
+				{{/if}}
+				{{#if asset_type === 'input_asset'}}
+				<textarea placeholder="Enter your response"></textarea>
+				{{/if}}
+			</div>
+			{{/assets}}
+			{{/tasks}}
+		</section>
+	</main>
+	<script src="task.js"></script>
+
+</body>
+</html>
